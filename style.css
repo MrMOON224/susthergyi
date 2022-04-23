@@ -1,147 +1,263 @@
-.a {
-   background: #53B0FF;
-   border: 3px solid #FFFFFF;
-   padding: 5px 20px;
-   border-radius: 10px;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-family: "Poppins";
+ scroll-behavior: smooth;
+ overflow-y: scroll;
+ background-color: #0E0E1E;
 }
-.b {
-  color: #ffffff;
-  text-align: center;
-  border: #00ccff 3px;
-  font-family: Courier New;
+
+.div1 {
+    float: left;
 }
-.c {
-                 color: #FFFFFF;
-                padding: 5px 20px;
-                border: 2px solid  #000000;
-                border-radius: 14px;
-                color: #FFFFFF;
-                font-family: Courier New;
-                border-bottom: 2px solid #03003F;
-                filter: drop-shadow(5px 5px 5px #201645);
-                font-size: 20px;
+ .header1 {
+      text-align: center;
+      max-width: 50%;
+      color: white;
+      font-size: 0px;
+      
+  }
+  .hid {
+      color: white;
+      text-align: center;
+      max-width: 45%;
+  }
+  .img1 {
+      max-width: 45%;
+      max-height: auto;
+      border-radius: 15px;
+      border: 1.5px solid white;
+      float: right;
+      right: 10px;
+  }
+  .div2 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }
+  .dis {
+      float: left;
+      max-width: 45%;
+      font-size: 1.5rem;
+      color: white;
+      font-size: 0px;
+  }
+    .i1 {
+        border-radius: 10px;
+        max-width: 100%;
+        max-height: auto;
+        border: 1px solid white;
+    }
+    .copy {
+        text-align: center;
+    }
+
+.navigation {
+  height: 70px;
+  background: #fff;
 }
-.d {
-                 color: #FFFFFF;
-                 background-color: #323232;
-                padding: 5px 20px;
-                border: 2px solid  #000000;
-                border-radius: 14px;
-                color: #FFFFFF;
-                font-family: Courier New;
-                border-bottom: 2px solid #0E006w1;
-                filter: drop-shadow(5px 5px 5px #201645);
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.b {
-                color: #FFFFFF;
-                font-family: Courier New;
-                text-align: center;
-                font-weight: bold;
-                border-color: #000000;
-                border-width: .10em;
-                border-bottom: 2px solid #000000;
-                filter: drop-shadow(15px 5px 4px #201645);
+
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-size: 1.4em;
 }
-.e {
-    border-color: #FFFFFF;
-                 border-width: auto;
-                 text-align: center;
-                 border-radius: 15px;
-                 border-style: solid;
-                 padding: 2px;
-                 border: 3px solid background-color: #eec0c6;
-background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%)
-}
-.f {
-   background: #000039;
-}
-.g {
-    color: #FFFFFF;
-    padding: 5px 20px;
-                border: 2px solid  #BBC5FF;
-                text-align: center;
-                border-radius: 14px;
-                color: #FFFFFF;
-                font-family: Courier New;
-                border-bottom: 2px solid #FF002D;
-                filter: drop-shadow(2px 2px 10px #FF002B);
-}
-.h {
-    text-align: center;
-    font-size: 25px;
-}
-.i {
-                 color: #FFFFFF;
-                padding: 5px 20px;
-                border-radius: 14px;
-                color: #FFFFFF;
-                font-family: Courier New;
-                filter: drop-shadow(5px 5px 5px #201645);
-                font-size: 20px;
-}
-            .j {
-                background-color: transparent;
-                background-image: ;
-                font-family: Courier New;
-                text-align: center;
-                font-weight: bold;
-                border-color: #000000;
-                border: 2px solid  #F6FFEE;
-                filter: drop-shadow(15px 5px 4px #201645);
-                width: 60px;
-                height: 30px;
-                align-items: center;
-                border-radius: 15px;
-            }
-            a {
-  background-color: transparent;
-  color: #FFFFFF;
-  padding: 1px 1px;
+.brand a,
+.brand a:visited {
+  color: #0c0c0c;
   text-decoration: none;
-  text-transform: none;
-  font-size: 18px;
-  border-bottom: 1px solid #FFFFFF;
-  font-family: Courier New;
 }
-.k {
-  background-color: transparent;
-  color: white;
-  padding: 1px 1px;
+
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li a {
+  display: block;
+  padding: 10px 20px 0 20px;
+  line-height: 50px;
+  background: #fff;
+  color: #0c0c0c;
   text-decoration: none;
-  text-transform: none;
-  font-size: 18px;
 }
-.l {
-    color: #FFFFFF;
-                padding: 5px 20px;
-                border: 2px solid  #000000;
-                border-radius: 14px;
-                color: #FFFFFF;
-                font-family: Courier New;
-                border-bottom: 2px solid #03003F;
-                filter: drop-shadow(5px 5px 5px #201645);
+nav ul li a::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #f8b500;
+  width: 0%;
+  bottom: 0px;
 }
-.n {
-        color: #FFFFFF;
-    padding: 5px 20px;
-                text-align: center;
-                border-radius: 4px;
-                color: #FFFFFF;
-                font-family: Courier New;
-                border-bottom: 2px solid #FF002D;
-                filter: drop-shadow(2px 2px 10px #FF002B);
+nav ul li a:hover::before {
+  width: 70%;
 }
-.m {
-    background-color: #53B0FF;
+nav ul li a:not(:only-child):after {
+  padding-left: 4px;
+  content: " ▾";
 }
-.x {
-    color: #FFFFFF;
-                padding: 5px 20px;
-                border: 2px solid  #F5FFEA;
-                border-radius: 14px;
-                color: #FFFFFF;
-                font-family: Courier New;
-                border-bottom: 2px solid #03003F;
-                filter: drop-shadow(5px 5px 5px #201645);
-                font-size: 24px;
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
+
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  height: 70px;
+  width: 70px;
+}
+
+@media only screen and (max-width: 799px) {
+  .nav-mobile {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    padding: 70px 0 15px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  nav ul li a:hover::before {
+    width: 20%;
+  }
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+
+  .nav-dropdown {
+    position: static;
+  }
+}
+#nav-toggle {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+}
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #f8b500;
+  position: absolute;
+  display: block;
+  content: "";
+  transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 799px) {
+  .nav-list {
+    display: block !important;
+  }
+  
+  
+  .div1 {
+      
+  }
+}
+@media only screen and (max-width: 799px) {
+ .header1 {
+      text-align: center;
+      color: white;
+      color: white;
+      max-width: 100%;
+      font-size: 2rem;
+
+  }
+  .img1 {
+      max-width: 45%;
+      max-height: auto;
+      border-radius: 15px;
+      margin-left: 5px;
+      margin-top: 10px;
+      border: 1.5px solid white;
+  }
+  .div2 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }
+  .dis {
+      float: right;
+      max-width: 45%;
+      margin-left: 20px;
+      font-size: 1.5rem;
+      color: white;
+  }
+    .i1 {
+        border-radius: 10px;
+        max-width: 100%;
+        max-height: auto;
+        border: 1px solid white;
+    }
+    .copy {
+        text-align: center;
+        color: white;
+    }
+    .hid {
+        font-size: 0;
+        position: fixed;
+        left: right 100px;
+    }
 }
